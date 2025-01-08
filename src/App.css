@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container styles */
+div {
+  margin-bottom: 20px;
+}
+
+/* Title style */
+h1 {
+  text-align: center;
+  color: #2d87f0;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Label style */
+span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* Select container style */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  transition: border-color 0.3s ease;
+}
+
+/* Hover effect for select */
+select:hover {
+  border-color: #2d87f0;
+}
+
+/* Style for the select options */
+option {
+  padding: 10px;
+}
+
+/* Adding some space for a nicer layout */
+div > div {
+  display: flex;
+  justify-content: center;
+}
+
+/* Adding a container around the form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+.data {
+  flex-direction: column;
+}
+
